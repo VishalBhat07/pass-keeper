@@ -7,6 +7,72 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Header section -->
+    <nav>
+      <img src="Assets/password.svg" alt="" />
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Software</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+
+    <!-- Main section -->
+    <div class="container">
+      <h1>Password Manager</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias soluta
+        culpa animi illo unde esse voluptatibus quo repudiandae consequuntur
+        voluptates nisi iste debitis, modi accusantium, ipsam harum. Fugit
+        ullam, maiores sunt nisi ipsa, ea reprehenderit sequi voluptatum
+        voluptatem voluptas obcaecati doloribus iste recusandae maxime est
+        necessitatibus rem distinctio sapiente! Porro?
+      </p>
+      <h2>Your Passwords</h2>
+      <table>
+        <tr>
+          <th>Website</th>
+          <th>Username</th>
+          <th>Password</th>
+          <th>Actions</th>
+        </tr>
+        <tr>
+          <td>Google</td>
+          <td>VishalBhat</td>
+          <td>Lorem</td>
+          <td>lorem</td>
+        </tr>
+        <tr>
+          <td>Google</td>
+          <td>VishalBhat</td>
+          <td>Lorem</td>
+          <td>lorem</td>
+        </tr>
+        <tr>
+          <td>Google</td>
+          <td>VishalBhat</td>
+          <td>Lorem</td>
+          <td>lorem</td>
+        </tr>
+      </table>
+      <h2>Add a Password</h2>
+      <form action="/submit" method="post">
+        <!-- Text input for username -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <br />
+        <br />
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <br />
+
+        <!-- Submit button -->
+        <input class="btn" type="submit"/>
+      </form>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
